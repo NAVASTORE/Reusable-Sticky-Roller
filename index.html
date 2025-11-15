@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSticky Roller - Solusi Praktis Pembersih Debu & Bulu Hewan | SimpleTech</title>
+    <meta name="description" content="Reusable Sticky Roller ramah lingkungan yang dapat digunakan berulang kali. Efektif membersihkan debu, bulu hewan, dan kotoran kecil lainnya.">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E4CCBF',
+                        secondary: '#80792D',
+                        accent: '#814F16',
+                        dark: '#683506',
+                    },
+                    fontFamily: {
+                        'heading': ['Poppins', 'sans-serif'],
+                        'body': ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-body bg-white">
+    <!-- Navigation -->
+    <script src="components/navigation.js"></script>
+    <custom-navigation></custom-navigation>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-accent/80 z-10"></div>
+        <div class="absolute inset-0 bg-[url('https://cdn.hotishop.com/image/36ae3666ace494e4d3e2e1e49a4ebda6051619e0-300.jpeg')] bg-cover bg-center"></div>
+        
+        <div class="relative z-20 max-w-6xl mx-auto px-6 text-center text-white">
+            <h1 class="font-heading text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+                Bersihkan Lebih Mudah, 
+                <span class="text-secondary">Lebih Ramah Lingkungan</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+                EcoSticky Roller - Solusi praktis membersihkan debu, bulu hewan, dan kotoran kecil lainnya. 
+                <strong>Bisa dipakai berulang kali, cukup dicuci!</strong>
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <div class="text-center">
+                    <div class="flex items-center justify-center gap-2 mb-2">
+                        <span class="text-3xl font-bold text-secondary">Rp 155.365</span>
+                        <span class="text-lg line-through opacity-70">Rp 310.730</span>
+                    </div>
+                    <span class="inline-block bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                        DISKON 50%
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <i data-feather="check-circle" class="w-4 h-4"></i>
+                    <span class="text-sm font-medium">Gratis Ongkir</span>
+                </div>
+                <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <i data-feather="shield" class="w-4 h-4"></i>
+                    <span class="text-sm font-medium">Garansi 7 Hari</span>
+                </div>
+                <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <i data-feather="refresh-cw" class="w-4 h-4"></i>
+                    <span class="text-sm font-medium">Bisa Dicuci</span>
+                </div>
+            </div>
+
+            <a href="#order-form" class="inline-flex items-center gap-2 bg-secondary hover:bg-accent text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                <i data-feather="shopping-cart" class="w-5 h-5"></i>
+                PESAN SEKARANG - HEMAT 50%
+            </a>
+        </div>
+    </section>
+    <!-- Product Gallery -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark mb-4">
+                    Lihat Keunggulan EcoSticky Roller
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Desain premium yang ringan dan mudah digunakan di mana saja
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/05c6bc8e19f295287720bf21c890b27163fa42ff.jpeg" 
+                             alt="EcoSticky Roller - Desain Premium" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/372ad399437744577a598979e60a85d4af1dd5c6-300.jpeg" 
+                             alt="EcoSticky Roller - Mudah Digunakan" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/7aa85f2ddafea3bcfcbe3a178e872a59141a4cf8.jpeg" 
+                             alt="EcoSticky Roller - Ramah Lingkungan" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/ce56876535e629f5433fec4c05d2358c35961da2-300.jpeg" 
+                             alt="EcoSticky Roller - Bisa Dicuci" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/e3f4ffd08b2aace27d3b3459c4e72205537defbc.jpeg" 
+                             alt="EcoSticky Roller - Portable" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/4ddfeae36414b23ef35aacaf643de9738c84c7bb-300.jpeg" 
+                             alt="EcoSticky Roller - Efektif" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/4d054df1fd1e92d51d5ffa79be3e04478efa8898.jpeg" 
+                             alt="EcoSticky Roller - Multi Angle" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/718eec3dd45673171f2ba1df51fdda7c8fc87a9f.jpeg" 
+                             alt="EcoSticky Roller - Detail" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer interactive-card">
+                    <div class="overflow-hidden">
+                        <img src="https://cdn.hotishop.com/image/d5c4b1a5e24703dee048bb3e596286af3a453e5f.jpeg" 
+                             alt="EcoSticky Roller - Comparison" 
+                             class="w-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                </div>
+</div>
+        </div>
+    </section>
+<!-- Benefits Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark mb-4">
+                    Mengapa EcoSticky Roller Lebih Unggul?
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center group">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-primary rounded-full flex items-center justify-center group-hover:bg-secondary transition-colors duration-300">
+                        <i data-feather="refresh-cw" class="w-10 h-10 text-dark"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-dark mb-3">
+                        Bisa Dipakai Berulang Kali
+                    </h3>
+                    <p class="text-gray-600">
+                        Cukup dicuci dengan air, lengketnya kembali seperti baru tanpa perlu beli refill
+                    </p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-primary rounded-full flex items-center justify-center group-hover:bg-secondary transition-colors duration-300">
+                        <i data-feather="zap" class="w-10 h-10 text-dark"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-dark mb-3">
+                        Permukaan Super Lengket
+                    </h3>
+                    <p class="text-gray-600">
+                        Efektif angkat debu, bulu hewan, dan kotoran kecil hanya dengan sekali gulir
+                    </p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-primary rounded-full flex items-center justify-center group-hover:bg-secondary transition-colors duration-300">
+                        <i data-feather="dollar-sign" class="w-10 h-10 text-dark"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-dark mb-3">
+                        Lebih Hemat & Ramah Lingkungan
+                    </h3>
+                    <p class="text-gray-600">
+                        Tanpa refill, lebih hemat dan mengurangi sampah plastik
+                    </p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-primary rounded-full flex items-center justify-center group-hover:bg-secondary transition-colors duration-300">
+                        <i data-feather="package" class="w-10 h-10 text-dark"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-dark mb-3">
+                        Desain Ringan & Portable
+                    </h3>
+                    <p class="text-gray-600">
+                        Mudah digunakan di rumah, mobil, atau dibawa bepergian
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Order Form Section -->
+    <section id="order-form" class="py-20 bg-gradient-to-br from-primary/20 to-accent/20">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark mb-4">
+                    Pesan EcoSticky Roller Sekarang
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Dapatkan diskon 50% dan nikmati kemudahan membersihkan tanpa repot
+                </p>
+            </div>
+
+            <div class="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/50">
+                <!-- OrderOnline Embed Code -->
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="nava" data-product-slug="reusable-sticky-roller" data-product-id="6916238664e872a73e08ca09" id="oo-embed-form-reusable-sticky-roller-3400" data-origin="orderonline">
+                        <div class="ooef-loader">
+                            <style>
+                                .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
+                                @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
+                                .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
+                                .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
+                                @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                            </style>
+                            <div aria-live="polite" role="status">
+                                <div>Loading...</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <script src="components/footer.js"></script>
+    <custom-footer></custom-footer>
+    <!-- Social Proof Popup Container -->
+    <div id="social-proof-popup" class="fixed top-6 right-6 z-50"></div>
+
+    <!-- Sticky CTA Button -->
+    <div id="sticky-cta" class="hidden z-40">
+        <a href="#order-form" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-secondary hover:bg-accent text-white font-bold py-3 px-6 rounded-full text-sm transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center gap-2">
+            <i data-feather="shopping-cart" class="w-4 h-4"></i>
+            PESAN SEKARANG - HEMAT 50%
+        </a>
+
+    <!-- Countdown Timer -->
+    <div class="fixed top-20 right-6 z-40">
+        <div class="countdown-timer">
+            <span id="countdown-timer">02:00:00</span>
+    </div>
+<!-- Components -->
+    <script src="components/navigation.js"></script>
+    <script src="components/footer.js"></script>
+    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        
+        // OrderOnline Script
+        if (typeof xLogError != 'function') {
+            var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+            };
+        }
+        try {
+            if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                    !function(w, d, e, v, id, t, s) {
+                        if (d.getElementById(id)) return;
+                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                        s = d.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t, s);
+                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                };
+            }
+            if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                    if (w.ooe) return;
+                    n = w.ooe = function() {
+                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!w._ooe) w._ooe = n;
+                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                };
+            }
+            xEmbedInit(window);
+            ooe('setup', 'redirect', 'https://nava.orderonline.id');
+            ooe('init', '5f119cd08dcbdb2737678706', '6916238664e872a73e08ca09', '6916238664e872a73e08ca0a', 'oo-embed-form-reusable-sticky-roller-3400', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":true});
+            if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    t.addEventListener('load', xEmbedScript);
+                    s = d.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                } else {
+                    xEmbedScript();
+                }
+            } catch (e) {
+                xLogError(e);
+                throw e;
+            }
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
